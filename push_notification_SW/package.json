@@ -1,0 +1,35 @@
+{
+  "name": "mean-app-material",
+  "version": "1.0.0",
+  "description": "express Api to serve Angular client ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salah-bel/mean-app-material.git"
+  },
+  "keywords": [
+    "app",
+    "mean",
+    "stack",
+    "angular",
+    "material",
+    "mongodb"
+  ],
+  "author": "salah-bel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salah-bel/mean-app-material/issues"
+  },
+  "homepage": "https://github.com/salah-bel/mean-app-material#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "web-push": "^3.4.4"
+  }
+}
